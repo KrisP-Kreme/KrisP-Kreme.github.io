@@ -1,19 +1,19 @@
 h1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 3.9vw;
     color: blueviolet;
     font-family: 'Bebas Neue', cursive; 
 }
 
 h3 {
     text-align: center;
-    font-size: 40px;
+    font-size: 3vw;
     font-family: 'Water Brush', cursive;
 }
 
 body {
     text-align: center;
-    font-size: 25px;
+    font-size: 1.5vw;
     font-family: 'Lobster', cursive;
     color:white;
     background-color: black;
@@ -29,4 +29,24 @@ body {
     top: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+  button {
+    background-color: black;
+    border: none;
+    color: red;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.5vw;
+    margin: 4px 2px;
+    border-color: red;  
+    border-width: .10em;  
+    border-style:solid;  
+    cursor: pointer;
+    font-family:'Tapestry', cursive;;
+  }
+  .responsive {
+      width: 100%;
+      height: auto;
   }
