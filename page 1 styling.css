@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    font-size: 3.9vw;
+    color: white;
+    font-family: 'Water Brush', cursive;
+}
+
+
+body {
+    background-color: black;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: red;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.5vw;
+    margin: 4px 2px;
+    border-color: red;  
+    border-width: .10em;  
+    border-style:solid;  
+    cursor: pointer;
+    font-family:'Tapestry', cursive;;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
