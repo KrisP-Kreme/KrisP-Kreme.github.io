@@ -29,7 +29,7 @@ public class Method {
         scnr.close();
 
 
-        System.out.println("The total cost of your order is " + totalCost);
+        System.out.println("The total cost of your order is $" + totalCost);
 
         
     }
