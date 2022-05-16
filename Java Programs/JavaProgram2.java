@@ -19,7 +19,7 @@ public class JavaProgram2 {
             else if (time < 12){
                 parkingCost = 7.50;
             }
-            else if (time < 18){
+            else if (time < 18){                                                                            
                 parkingCost = 15.50;
             }
             else if (time < 24){
