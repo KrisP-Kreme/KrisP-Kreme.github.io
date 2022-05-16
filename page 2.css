@@ -9,3 +9,56 @@ h1 {
 body {
     background-color: black;
 }
+
+pre {
+    color: white;
+    font-size: 0.9vw;
+    outline: 2px solid white;
+    font-family: 'Raleway', sans-serif;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: red;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3.25vw;
+    margin: 4px 2px;
+    border-color: red;  
+    border-width: .10em;  
+    border-style:solid;  
+    cursor: pointer;
+    font-family:'Tapestry', cursive;;
+    float: left;
+}
+img{
+    float:right;
+    position: relative;
+    top: -100px;
+    left: -60px;
+    height: 30%;
+    width: 50%;
+   }
+
+   a{
+    background-color: black;
+    border: none;
+    color: red;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3.25vw;
+    margin: 4px 2px;
+    border-color: red;  
+    border-width: .10em;  
+    border-style:solid;  
+    cursor: pointer;
+    font-family:'Tapestry', cursive;;
+    float: left;  
+   }
+
+  

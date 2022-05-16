@@ -1,11 +1,98 @@
 <!DOCTYPE html>
 <html>
     <body><h1>You are faced with the first coding puzzle. Answer correctly or face the consequences  ...</h1>
+        <pre class ="Code1">
+            
+        import java.util.Scanner;
+
+                public class JavaProgram2 {
+                    public static void main(String[] args) {
+                        Scanner scnr = new Scanner(System.in);
+                        int time;
+                        double parkingCost = 0.00;
+                        int parkingHours;
+                        double totalCost = 0;
+
+                        System.out.println("Enter what hour of the day it is (24 hour)");
+                        time = scnr.nextInt();
+                        System.out.println("Enter how many hours you are parking for (Maximum 6)");
+                <IMG SRC="https://i.imgur.com/TT3Avmu.gif">
+
+                        parkingHours = scnr.nextInt();
+        
+                        if (time < 6) {
+                            parkingCost = 5.50;
+                            }
+                        else if (time < 12){
+                            parkingCost = 7.50;
+                            }
+                        else if (time < 18){
+                            parkingCost = 15.50;
+                        }
+                        else if (time < 24){
+                            parkingCost = 10.50;
+                        }
+        
+                    if (parkingHours <= 6){
+                        totalCost = parkingCost * parkingHours;
+                        System.out.println("The total cost for parking is $" + totalCost);
+                    }
+                    else {
+                        System.out.println("Please enter a valid time period between 1-6 hours");
+                    }
+
+                    scnr.close();
+
+
+    
+                    }
+                }
+
+        </pre>
+
+        <pre Class ="Answer1">
+            
+            If the user enters the following: 
+            
+            10 
+
+            3
+
+            What is the value of totalCost? 
+        </pre>
+
+        <a href="page 4.html">
+                    Answer 1: 22.50</a>
+
+            <a href="page 3.html">
+                    Answer 2: 15.00</a>
+
+                    
+
+            <a href="page 3.html">
+                    Answer 3: 31.00</a>
+
+            
+            <a href="page 3.html">
+                    Answer 4: 16.50</a>
+        
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Water+Brush&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
 
     <link href="page 2.css" rel="stylesheet">
 
