@@ -1,7 +1,7 @@
 h1 {
     text-align: center;
     font-size: 3.9vw;
-    color: blueviolet;
+    color: red;
     font-family: 'Bebas Neue', cursive; 
 }
 
@@ -11,10 +11,17 @@ h3 {
     font-family: 'Water Brush', cursive;
 }
 
+h4{
+  text-align: center;
+    font-size: 1.8vw;
+    color: white;
+    font-family: 'Rock Salt', cursive;
+}
+
 body {
     text-align: center;
-    font-size: 1.5vw;
-    font-family: 'Lobster', cursive;
+    font-size: 1.3vw;
+    font-family: 'Rock Salt', cursive;
     color:white;
     background-color: black;
 }
@@ -51,3 +58,5 @@ body {
       width: 45%;
       height: auto;
   }
+
+  
