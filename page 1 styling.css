@@ -30,7 +30,7 @@ a{
 
 .centered {
     position: absolute;
-    top: 70%;
+    top: 78%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -39,21 +39,24 @@ a{
     width: 45%;
     height: auto;
 }
-.container {
-    position: absolute;
-    text-align: center;
-    color: white;
-    top: 40%;
-    left: 42%;
+
+
+.center {
+   margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
-.container2 {
-    position: absolute;
-    text-align: center;
-    top: 10%;
-    left: -60%;
+
+.button-group {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  float: left;
 }
-.container3 {
-    position: absolute;
-    top: -60%;
-    left: 55%;
-}
+
