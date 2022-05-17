@@ -64,13 +64,13 @@ body {
   .centered {
     position: absolute;
     top: 58%;
-    left: 47%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 .button-centered {
   position: absolute;
   top: 85%;
-  left: 47%;
+  left: 50%;
   transform: translate(-50%, -50%);
 }
 
