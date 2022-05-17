@@ -31,12 +31,6 @@ body {
     text-align: center;
     color: white;
   }
-  .centered {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
   a{
     background-color: black;
     border: none;
@@ -70,6 +64,13 @@ body {
 .button-centered {
   position: absolute;
   top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-centered {
+  position: absolute;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
