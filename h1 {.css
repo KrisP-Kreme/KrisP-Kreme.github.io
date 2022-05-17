@@ -37,8 +37,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  button {
-    align-items: center;
+  a{
     background-color: black;
     border: none;
     color: red;
@@ -46,14 +45,16 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 2.5vw;
+    font-size: 3.25vw;
     margin: 4px 2px;
     border-color: red;  
     border-width: .10em;  
     border-style:solid;  
     cursor: pointer;
     font-family:'Tapestry', cursive;;
-  }
+    float: left;  
+   }
+
   .responsive {
       width: 45%;
       height: auto;
