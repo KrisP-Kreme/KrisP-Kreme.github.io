@@ -1,7 +1,7 @@
 h1 {
     text-align: center;
     font-size: 3.9vw;
-    color: blueviolet;
+    color: red;
     font-family: 'Bebas Neue', cursive; 
 }
 
@@ -11,10 +11,17 @@ h3 {
     font-family: 'Water Brush', cursive;
 }
 
+h4{
+  text-align: center;
+    font-size: 1.8vw;
+    color: white;
+    font-family: 'Rock Salt', cursive;
+}
+
 body {
     text-align: center;
-    font-size: 1.5vw;
-    font-family: 'Lobster', cursive;
+    font-size: 1.3vw;
+    font-family: 'Rock Salt', cursive;
     color:white;
     background-color: black;
 }
@@ -24,14 +31,7 @@ body {
     text-align: center;
     color: white;
   }
-  .centered {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  button {
-    align-items: center;
+  a{
     background-color: black;
     border: none;
     color: red;
@@ -39,15 +39,56 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 2.5vw;
+    font-size: 2.8vw;
     margin: 4px 2px;
     border-color: red;  
     border-width: .10em;  
     border-style:solid;  
     cursor: pointer;
     font-family:'Tapestry', cursive;;
+    float: left;  
+   }
+
+   a:hover{
+    background-color: red;
+    color: black;
   }
+   
+
   .responsive {
       width: 45%;
       height: auto;
   }
+
+  .centered {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.button-centered {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-centered {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image2 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+  

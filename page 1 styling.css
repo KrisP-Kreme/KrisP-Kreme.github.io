@@ -10,7 +10,7 @@ body {
     background-color: black;
 }
 
-button {
+a{
     background-color: black;
     border: none;
     color: red;
@@ -18,18 +18,24 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 2.5vw;
+    font-size: 3.25vw;
     margin: 4px 2px;
     border-color: red;  
     border-width: .10em;  
     border-style:solid;  
     cursor: pointer;
     font-family:'Tapestry', cursive;;
-}
+    float: left;  
+   }
+
+   a:hover{
+    background-color: red;
+    color: black;
+    }
 
 .centered {
     position: absolute;
-    top: 70%;
+    top: 78%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -38,21 +44,34 @@ button {
     width: 45%;
     height: auto;
 }
-.container {
+
+
+.center {
+   margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.button-group {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  float: left;
+}
+
+.button-group-2 {
+    margin: 0;
     position: absolute;
-    text-align: center;
-    color: white;
     top: 40%;
-    left: 42%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    float: left; 
 }
-.container2 {
-    position: absolute;
-    text-align: center;
-    top: 10%;
-    left: -60%;
-}
-.container3 {
-    position: absolute;
-    top: -60%;
-    left: 55%;
-}
+

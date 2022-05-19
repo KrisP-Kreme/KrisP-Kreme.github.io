@@ -20,8 +20,8 @@ pre {
 img{
     float:right;
     position: relative;
-    top: -100px;
-    left: -60px;
+    top: -300px;
+    left: -10px;
     height: 30%;
     width: 50%;
    }
@@ -40,14 +40,13 @@ img{
     border-width: .10em;  
     border-style:solid;  
     cursor: pointer;
-    font-family:'Tapestry', cursive;;
-    float: left;  
+    font-family:'Tapestry', cursive;
+    float: left;
    }
-
    a:hover{
-    background-color: red;
-    color: black;
-    }
+       background-color: red;
+       color: black;
+   }
 
 
 
