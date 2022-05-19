@@ -48,6 +48,11 @@ body {
     font-family:'Tapestry', cursive;;
     float: left;  
    }
+
+   a:hover{
+    background-color: red;
+    color: black;
+  }
    
 
   .responsive {
@@ -74,5 +79,16 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.image2 {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
 
   
