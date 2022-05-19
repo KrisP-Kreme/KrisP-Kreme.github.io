@@ -1,46 +1,32 @@
 <!DOCTYPE html>
 <html>
-    <body><h1>The second coding puzzle appears before you. Will you select the correct answer? Probably not...</h1>
+    <body><h1>You enter through the door and in front of you is nothing but a small tunnel, requiring you to get on to your stomach and crawl. After what feels like an eternity, you exit out into a tiny puzzle where you are confronted with yet another coding puzzle...</h1>
         <pre class ="Code2">
             
-        import java.util.Scanner;
+            import java.util.Scanner;
 
-                public class Method {
-                    public static void main(String[] args) {
-                        Scanner scnr = new Scanner(System.in);
-                        int amountChips;
-                        int amountNuggets;
-                        int amountHotdogs;
-                        double chipsCost = 2.50;
-                        double nuggetsCost = 1.10;
-                        double hotdogsCost = 4.00;
-                        double totalCost;
-                    
-                        System.out.println("Enter the amount of Chips you would like");
-                        amountChips = scnr.nextInt();
-            
-                        System.out.println("Enter the amount of Nuggets you would like");
-                        amountNuggets = scnr.nextInt();
-                    
-            
-                    <img SRC="https://giffiles.alphacoders.com/810/81088.gif">
-
-            
-                        System.out.println("Enter the amount of Hotdogs you would like");
-                        amountHotdogs = scnr.nextInt();
-            
-                        double chips = chipsCost * amountChips;
-                        double nuggets = nuggetsCost * amountNuggets;
-                        double hotdogs = hotdogsCost * amountHotdogs;
-                    
-                        totalCost = chips + nuggets + hotdogs;
-            
+            public class JavaProgram3 {
+                public static void main(String[] args) {
+                    Scanner scnr = new Scanner (System.in);
+                    int i;
+                    int km;
+                    double miles;
+                
+                    System.out.println("Enter amount of Kilometres");
+                    km = scnr.nextInt();
+                        
+                        
+                    for (i = 0; i <= km; i += 10) {
+                        miles = i / 1.609;
+                
+                        System.out.print(i + "km is equal to ");
+                        System.out.printf("%.2f", miles );
+                        System.out.println(" miles");
+                            
+                    }
+                
                         scnr.close();
-            
-            
-                        System.out.println("The total cost of your order is $" + totalCost);
-            
-                    
+                
                     }
                 }
                 <br>
