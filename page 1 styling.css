@@ -40,6 +40,12 @@ a{
     transform: translate(-50%, -50%);
 }
 
+.middle {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .responsive {
     width: 45%;
     height: auto;
@@ -75,3 +81,12 @@ a{
     float: left; 
 }
 
+.button-group-3 {
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    float: left; 
+}
