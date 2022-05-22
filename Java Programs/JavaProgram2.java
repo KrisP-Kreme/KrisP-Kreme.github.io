@@ -25,6 +25,7 @@ public class JavaProgram2 {
             else if (time < 24){
                 parkingCost = 10.50;
             }
+        //CORRECT ANSWER is 22.50
         
         if (parkingHours <= 6){
             totalCost = parkingCost * parkingHours;
