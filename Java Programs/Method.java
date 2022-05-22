@@ -30,6 +30,8 @@ public class Method {
 
 
         System.out.println("The total cost of your order is $" + totalCost);
+        
+        //CORRECT ANSWER is 6.60
 
         
     }
