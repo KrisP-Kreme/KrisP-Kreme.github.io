@@ -21,6 +21,8 @@ public class JavaProgram4 {
         double average = (double)sum / (double)amountNumbers;
 
         System.out.println("The average of all numbers added is " + average);
+        
+        //CORRECT ANSWER IS 16.5
 
 
     }
