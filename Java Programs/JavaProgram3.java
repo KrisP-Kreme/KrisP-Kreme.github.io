@@ -19,6 +19,10 @@ public class JavaProgram3 {
             System.out.println(" miles");
                 
         }
+        
+        //CORRECT ANSWER IS:
+        //0KM is EQUAL TO 0.00 MILES
+        //10KM is EQUAL TO 6.22 MILES
     
             scnr.close();
     
